@@ -64,7 +64,7 @@ function Hero() {
           <a
             href="Resume.pdf"
             className="px-5 py-2 border-2 border-white rounded text-white bg-blue-800 hover:scale-90 hover:bg-white hover:text-blue-800 transition-all"
-            download={"Gokul_Resume.pdf"}
+            download="Gokul_Resume.pdf"
           >
             Download
           </a>
