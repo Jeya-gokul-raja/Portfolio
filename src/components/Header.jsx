@@ -54,9 +54,7 @@ function Header() {
             <li className="p-2  w-full text-center">
               <a href="#projects">Projects</a>
             </li>
-            <li className="p-2   w-full text-center">
-              <a href="#resume">Resume</a>
-            </li>
+
             <li className="p-2 ">
               <a href="#contact">Contact</a>
             </li>

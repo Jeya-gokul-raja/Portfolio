@@ -22,15 +22,13 @@ export default function About() {
       className="flex flex-col sm:flex-row bg-blue-950 px-5 py-20 sm:py-32 items-center min-h-screen"
     >
       {/* Image Section */}
-      <div
-        className="w-full sm:w-1/2 flex justify-center mb-10 sm:mb-0"
-        data-aos="fade-right"
-        data-aos-duration="1000"
-      >
+      <div className="w-full sm:w-1/2 flex justify-center mb-10 sm:mb-0">
         <img
           className="h-60 w-60 sm:w-[500px] sm:h-[400px] object-cover transition-transform duration-500 hover:scale-110"
           src={AboutImg}
           alt="About Me"
+          data-aos="fade-right"
+          data-aos-duration="1000"
         />
       </div>
 

@@ -37,7 +37,7 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="flex flex-col sm:h-[800px] w-full sm:w-full sm:flex-row justify-center  bg-gradient-to-t bg-blue-800 items-center"
+      className="flex flex-col sm:h-[800px] h-[700px] w-full sm:w-full sm:flex-row justify-center  bg-gradient-to-t bg-blue-800 items-center"
     >
       <div
         className="sm:w-full flex flex-col p-8 rounded-lg sm:ml-28  sm:text-left"
