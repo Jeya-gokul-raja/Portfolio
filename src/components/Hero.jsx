@@ -78,6 +78,7 @@ function Hero() {
           src={HeroImg}
           alt="Hero"
           data-aos-delay="500"
+          data-aos-duration="1000"
         />
       </div>
     </section>

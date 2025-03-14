@@ -72,7 +72,7 @@ export default function About() {
               key={index}
               className="px-3 sm:px-4 py-2 bg-blue-800 text-white rounded-lg shadow-md hover:bg-blue-700 transition-all"
               data-aos="fade-left"
-              data-aos-duration="2500"
+              data-aos-duration="1900"
             >
               {tech}
             </li>

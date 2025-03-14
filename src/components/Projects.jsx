@@ -39,7 +39,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="flex flex-col sm:h-[800px] px-5 sm:px-28 py-20 bg-blue-800 text-white"
+      className="flex flex-col sm:h-[900px] px-5 sm:px-28 py-20 bg-blue-800 text-white"
     >
       {/* Section Heading */}
       <div className="w-full text-center sm:text-left mb-10" data-aos="fade-up">
