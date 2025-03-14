@@ -43,7 +43,7 @@ function Header() {
         <nav className="block sm:hidden ">
           <ul
             onClick={() => setToggleMenu(!toggleMenu)}
-            className="flex flex-col items-center fixed top-10 left-0 bg-white w-full h-1/4"
+            className="flex flex-col items-center -ml-8 fixed top-10 left-0 bg-white w-full h-1/4"
           >
             <li className="p-2  w-full text-center">
               <a href="/">Home</a>
