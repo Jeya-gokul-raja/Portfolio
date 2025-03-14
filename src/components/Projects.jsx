@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import web1 from "../assets/apple.jpg";
-import web2 from "../assets/bus_p.jpg";
+import web1 from "../assets/Apple.png";
+import web2 from "../assets/image.jpg";
 import web3 from "../assets/third.webp";
 
 export default function Projects() {
