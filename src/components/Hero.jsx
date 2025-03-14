@@ -40,7 +40,7 @@ function Hero() {
       className="flex flex-col sm:h-[800px] h-[650px] w-full sm:w-full sm:flex-row justify-center  bg-gradient-to-t bg-blue-800 items-center"
     >
       <div
-        className="sm:w-full flex flex-col p-8 rounded-lg sm:ml-28  sm:text-left"
+        className="sm:w-full flex flex-col p-8 rounded-lg sm:ml-28 -mt-10  sm:text-left"
         data-aos="fade-right"
       >
         <h1 className="text-white text-2xl sm:mt-8 sm:text-4xl font-hero-font">
