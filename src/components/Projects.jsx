@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import web1 from "../assets/Apple.png";
 import web2 from "../assets/image.jpg";
-import web3 from "../assets/third.webp";
+import web3 from "../assets/ai.png";
 
 export default function Projects() {
   useEffect(() => {
@@ -15,6 +15,7 @@ export default function Projects() {
       image: web1,
       title: "Apple Website Replicate",
       link: "https://apple-website-sigma-six.vercel.app/",
+      tech: ["React", "Tailwind CSS", "JavaScript"], // Fixed here
       description:
         "Recreated the Apple website with a sleek, modern UI/UX, ensuring smooth animations and high performance. Integrated reusable components, dynamic routing, and efficient state management for scalability. Designed with full mobile responsiveness and cross-browser compatibility for a seamless user experience.",
     },
@@ -22,19 +23,19 @@ export default function Projects() {
       image: web2,
       title: "Travel-Tro",
       link: "https://travel-tro.vercel.app/",
+      tech: ["React", "Tailwind CSS", "JavaScript"], // Fixed here
       description:
         "Designed a real-time and static bus route information system for Madurai commuters. Created a user-friendly interface for quick access to routes, timings, and stops. Optimized for smooth performance across all devices, enhancing daily travel convenience.",
     },
     {
       image: web3,
       title: "AI-QADS",
-      link: "https://www.youtube.com/",
+      link: "#",
+      tech: ["Python", "Streamlit"], // Fixed here
       description:
         "Built an intelligent system that extracts key insights, summarizes documents, and answers queries with precision. Leveraged efficient text processing algorithms for accuracy and speed. Optimized for multiple document formats, ensuring versatility and usability.",
     },
   ];
-
-  const tech = ["React", "Tailwind CSS", "JavaScript"];
 
   return (
     <section
@@ -75,14 +76,19 @@ export default function Projects() {
                   View Project
                 </a>
                 <div className="flex flex-wrap justify-center gap-2 sm:mt-5">
-                  {tech.map((item, i) => (
-                    <h4
-                      key={i}
-                      className="text-xs bg-gray-700 px-2 py-1 rounded text-white"
-                    >
-                      {item}
-                    </h4>
-                  ))}
+                  {project.tech.map(
+                    (
+                      item,
+                      i // Fixed reference here
+                    ) => (
+                      <h4
+                        key={i}
+                        className="text-xs bg-gray-700 px-2 py-1 rounded text-white"
+                      >
+                        {item}
+                      </h4>
+                    )
+                  )}
                 </div>
               </div>
             </div>
